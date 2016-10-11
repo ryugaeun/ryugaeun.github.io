@@ -1,3 +1,21 @@
 body {
-	background: url("../images/leading-24px.png");
+	width: 960px;
+	margin: 0 auto;
+	/*background: url("../images/leading-24px.png");*/
+	font-family: "Spoqa Han Sans";
+	line-height: 1.7;
+	letter-spacing: -0.03em;
+}
+
+div {
+	column-count: 2;
+	column-gap: 24px;
+}
+
+
+p {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	color: #454545;
+
 }
